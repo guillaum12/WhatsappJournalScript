@@ -1,0 +1,24 @@
+{
+  "name": "shiokfarmgooglescript",
+  "version": "1.0.0",
+  "description": "## Installation",
+  "main": "process.js",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.97",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "start": "npx tsc && clasp push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaum12/ShiokfarmGoogleScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guillaum12/ShiokfarmGoogleScript/issues"
+  },
+  "homepage": "https://github.com/guillaum12/ShiokfarmGoogleScript#readme"
+}
