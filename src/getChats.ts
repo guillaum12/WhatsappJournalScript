@@ -8,6 +8,8 @@ function getChats(): Chats[] {
 
   const parsedChats: Chats[] = [];
 
+  //Use less to change
+
   chats.forEach((chat: any) => {
     const name = chat.name || "(Sans nom)";
     const chatId = chat.id?._serialized || "N/A";
